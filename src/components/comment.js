@@ -1,5 +1,5 @@
 import React from "react"
-import Faker from "faker"
+import { faker } from "@faker-js/faker"
 import { faHeart } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHeart as faHeartRegular } from "@fortawesome/free-regular-svg-icons"
@@ -9,7 +9,7 @@ const getRandomNumber = () => {
 }
 
 const getRandomHeartIcon = (x) => {
-  if (Faker.random.boolean())
+  if (faker.random.boolean())
     return (
       <FontAwesomeIcon icon={faHeartRegular} style={{ cursor: "pointer" }} />
     )
@@ -25,14 +25,14 @@ const Comment = () => {
   return (
     <div className="Comment">
       <div className="Comment-user-profile">
-        <img src={Faker.internet.avatar()} alt="User Comment Profile" />
+        <img src={faker.internet.avatar()} alt="User Comment Profile" />
       </div>
       <div className="Comment-comment">
         <div className="Comment-text">
           <span className="Post-caption-username">
-            {Faker.internet.userName()}
+            {faker.internet.userName()}
           </span>
-          {Faker.lorem.words()}
+          {faker.lorem.words()}
         </div>
         <div className="Comment-detail">
           <span>{getRandomNumber() + "h"}</span>

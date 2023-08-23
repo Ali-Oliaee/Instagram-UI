@@ -1,10 +1,10 @@
 import React from "react"
-import Faker from "faker"
+import { faker } from "@faker-js/faker"
 
 const Post = () => {
   return (
     <div className="Post-image">
-      <img src={Faker.image.image()} alt="PostImage" />
+      <img src={faker.image.image()} alt="PostImage" />
     </div>
   )
 }

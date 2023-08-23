@@ -1,13 +1,13 @@
 import React from "react"
 import "./App.css"
-import Faker from "faker"
+import { faker } from "@faker-js/faker"
 import Header from "./components/header"
 import Comments from "./components/comments"
 import Caption from "./components/caption"
 import Post from "./components/post"
 
 const App = (props) => {
-  let username = Faker.internet.userName()
+  let username = faker.internet.userName()
   return (
     <div>
       <div className="Post">
