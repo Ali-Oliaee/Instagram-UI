@@ -4,7 +4,7 @@ import { faker } from "@faker-js/faker"
 const Post = () => {
   return (
     <div className="Post-image">
-      <img src={faker.image.image()} alt="PostImage" />
+      <img src={faker.image.url()} alt="PostImage" />
     </div>
   )
 }

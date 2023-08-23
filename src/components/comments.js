@@ -9,7 +9,7 @@ const Comments = () => {
   let numberOfComments = getRandomNumber()
   let commentsArray = []
   for (let i = 0; i < numberOfComments; i++) {
-    commentsArray.push(<Comment />)
+    commentsArray.push(<Comment key={i} />)
   }
   return <div className="Post-comments">{commentsArray}</div>
 }

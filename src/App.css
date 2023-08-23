@@ -32,7 +32,7 @@ body {
     height: 100%;
 }
 .Post-header-username {
-    font: 17px "Shabnam FD";
+    font: 17px;
     color: #262626;
     margin-left: 10px;
     flex-grow: 1;
@@ -53,12 +53,12 @@ body {
 .Post-caption {
     width: 100%;
     padding: 10px 16px;
-    font: 14px "Shabnam FD";
+    font: 14px;
     border-bottom: 1px solid #ccc;
     margin-bottom: 15px;
 }
 .Post-caption-username {
-    font: 17px "Shabnam FD";
+    font: 17px;
     color: #262626;
     margin-left: 10px;
     flex-grow: 1;
@@ -67,7 +67,7 @@ body {
     cursor: pointer;
 }
 .Post-caption-time {
-    font: 13px "Shabnam FD";
+    font: 13px;
     color: #999999;
     font-weight: bold;
     margin-left: 10px;
@@ -78,7 +78,7 @@ body {
 }
 .Comment {
     display: flex;
-    align-items: start;
+    
     margin-bottom: 10px;
 }
 .Comment-user-profile {
@@ -105,7 +105,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 10px;
-    font: 14px "Shabnam FD";
+    font: 14px;
     flex-grow: 1;
 }
 .Comment-detail {
@@ -113,6 +113,6 @@ body {
 }
 .Comment-detail span {
     margin-right: 10px;
-    font: 13px "Shabnam FD";
+    font: 13px;
     color: #999999;
 }

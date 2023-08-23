@@ -2,7 +2,6 @@ import React from "react"
 import { faker } from "@faker-js/faker"
 
 const Caption = (props) => {
-  console.log(props)
   return (
     <React.Fragment>
       <div className="Post-caption">
