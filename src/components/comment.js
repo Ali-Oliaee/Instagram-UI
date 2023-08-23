@@ -9,7 +9,7 @@ const getRandomNumber = () => {
 }
 
 const getRandomHeartIcon = (x) => {
-  if (faker.random.boolean())
+  if (faker.datatype.boolean())
     return (
       <FontAwesomeIcon icon={faHeartRegular} style={{ cursor: "pointer" }} />
     )
